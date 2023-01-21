@@ -28,19 +28,16 @@ Console.WriteLine(numbers[i]);
 //for (int i = 0; i < numbers.Length; i++)
 //{
 //sum = sum + numbers[i];
-
-
 //}
 //sum = sum / numbers.Length;
 //Console.WriteLine(sum);
 
-//task 3
-//int[] numbers = { 4, 2, 3, 1 };
-//for (int i = 0; i < numbers.Length; i++)
-//{
 
-//	for (int k = numbers.Length - 1; k >= 0; k--)
-//	{
-//		Console.WriteLine(numbers[k]);
-//	}
-//}
+
+//task 3
+int[] numbers = { 4, 2, 3, 1 };
+for (int i = numbers.Length - 1; i >= 0; i--)
+{
+	Console.Write(numbers[i]+ " ");
+	
+}
